@@ -1,0 +1,11 @@
+sub grading()
+dim marks as Integer
+marks=inputbox(ënter marks")
+if marks>80 or marks<100
+messagebox("Excellent")
+if marks>60 or marks<79
+messagebox("EVery Good")
+if marks>40 or marks<59
+messagebox("Good")
+if marks>20 or marks<39
+messagebox("Satisfactory")
